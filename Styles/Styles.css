@@ -1,4 +1,10 @@
-body{margin:0}
+body {
+    margin:0
+}
+
+h2 {
+    text-align:center;
+}
 
 /*nav bar*/
 nav, ul, li, a {
@@ -6,7 +12,6 @@ nav, ul, li, a {
     text-decoration: none;
     color: black;
     padding: 0;
-    
 }
 
 .spacer {
@@ -30,7 +35,42 @@ nav, ul, li, a {
 }
 
 .title-text {
-    
     line-height: 4em;
 }
 
+/*about*/
+.half {
+    width: 100%;
+    height: 100%;
+}
+
+.about-section {
+    display:flex;
+    justify-content: space-between;
+}
+
+.about-section-image {
+    background-color:blue;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+/*services*/
+.service-grid {
+    display: flex;
+}
+
+.service-half {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+/*contact*/
+.contact-section-image {
+    background-color:darkgreen;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
