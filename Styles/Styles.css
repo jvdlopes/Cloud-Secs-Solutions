@@ -1,5 +1,6 @@
 body {
-    margin:0
+    margin:0;
+    background-color: #EFE9D5;
 }
 
 h2 {
@@ -27,7 +28,7 @@ nav, ul, li, a {
 
 /*title*/
 .title {
-    background-color: aqua;
+    background-color: #497D74;
     background-size: cover;
     height: 100px;
     text-align: center;
@@ -50,7 +51,7 @@ nav, ul, li, a {
 }
 
 .about-section-image {
-    background-color:blue;
+    background-color:#27445D;
     background-size: cover;
     width: 100%;
     text-align: center;
@@ -69,8 +70,13 @@ nav, ul, li, a {
 
 /*contact*/
 .contact-section-image {
-    background-color:darkgreen;
+    background-color:#27445D;
     background-size: cover;
     width: 100%;
     text-align: center;
+}
+
+/*bottom*/
+.bottom {
+    background-color: #71BBB2;
 }
