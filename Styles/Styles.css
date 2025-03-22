@@ -94,9 +94,23 @@ nav, ul, li, a {
     background-position: center;
 }
 
+.contact-button {
+    margin-left: 25%;
+    width: 50%;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    margin: 0;
+}
+
 /*bottom*/
 .bottom {
-    background-color: #71BBB2;
+    text-align: right;
 }
 
 .bottom p{
