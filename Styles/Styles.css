@@ -20,6 +20,8 @@ nav, ul, li, a {
     max-width: 190px;
     max-height: 0;
     margin-left: 10px;
+    margin-bottom: 30px;
+
 }
 
 .top {
@@ -29,15 +31,25 @@ nav, ul, li, a {
 
 /*title*/
 .title {
-    background-color: #71BBB2;
+    color: #71BBB2;
     background-size: cover;
-    height: 100px;
+    height: 500px;
     text-align: center;
-    
+    background-image: url(../Assets/Title.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+
 .title-text {
+    font-size: 7.5em;
+    height: 100%;
+    margin: auto;
     line-height: 4em;
+    backdrop-filter:blur(10px);
+    backdrop-filter: grayscale(50%);
 }
 
 /*about*/
@@ -53,7 +65,7 @@ nav, ul, li, a {
 }
 
 .about-section-image {
-    background-image: url(../Assets/test.png);
+    background-image: url(../Assets/About.png);
     background-size:cover;
     width: 100%;
     height: 500px;
@@ -74,7 +86,7 @@ nav, ul, li, a {
 
 /*contact*/
 .contact-section-image {
-    background-image: url(../Assets/test.png);
+    background-image: url(../Assets/Contact.png);
     background-size:cover;
     width: 100%;
     height: 500px;
@@ -85,4 +97,8 @@ nav, ul, li, a {
 /*bottom*/
 .bottom {
     background-color: #71BBB2;
+}
+
+.bottom p{
+    margin: 0;
 }
