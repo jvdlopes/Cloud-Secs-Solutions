@@ -1,6 +1,7 @@
 body {
     margin:0;
-    background-color: #EFE9D5;
+    background-color: #27445D;
+    color: #EFE9D5;
 }
 
 h2 {
@@ -11,7 +12,7 @@ h2 {
 nav, ul, li, a {
     list-style-type: none;
     text-decoration: none;
-    color: black;
+    color: #EFE9D5;
     padding: 0;
 }
 
@@ -28,7 +29,7 @@ nav, ul, li, a {
 
 /*title*/
 .title {
-    background-color: #497D74;
+    background-color: #71BBB2;
     background-size: cover;
     height: 100px;
     text-align: center;
@@ -48,13 +49,16 @@ nav, ul, li, a {
 .about-section {
     display:flex;
     justify-content: space-between;
+    background-color:#497D74;
 }
 
 .about-section-image {
-    background-color:#27445D;
-    background-size: cover;
+    background-image: url(../Assets/test.png);
+    background-size:cover;
     width: 100%;
-    text-align: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /*services*/
@@ -70,10 +74,12 @@ nav, ul, li, a {
 
 /*contact*/
 .contact-section-image {
-    background-color:#27445D;
-    background-size: cover;
+    background-image: url(../Assets/test.png);
+    background-size:cover;
     width: 100%;
-    text-align: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /*bottom*/
