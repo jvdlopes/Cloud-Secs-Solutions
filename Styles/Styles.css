@@ -58,6 +58,12 @@ nav, ul, li, a {
     height: 100%;
 }
 
+.half p {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
 .about-section {
     display:flex;
     justify-content: space-between;
